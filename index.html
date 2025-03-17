@@ -3,21 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Rory Gustine | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        .project { margin-top: 20px; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background: #ff8c00;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: 0.3s ease;
+        }
+        a:hover {
+            background: #ffaf40;
+        }
+        .project {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+        .project h2 {
+            font-size: 1.8em;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hello, I'm <strong>Rory Gustine</strong>. I'm an aspiring developer.</p>
-    <a href="https://github.com/rorygustine">Check out my GitHub</a>
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello, I'm <strong>Rory Gustine</strong>. I'm an aspiring developer.</p>
+        <a href="https://github.com/rorygustine" target="_blank">Check out my GitHub</a>
 
-    <div class="project">
-        <h2>Featured Project: Data Sharing Daemon</h2>
-        <p>A data sharing service with various considerations for security and robustness.</p>
-        <a href="https://github.com/rorygustine/Data-Sharing-Service" target="_blank">View on GitHub</a>
+        <div class="project">
+            <h2>Featured Project: Data Sharing Daemon</h2>
+            <p>A data sharing service with various considerations for security and robustness.</p>
+            <a href="https://github.com/rorygustine/Data-Sharing-Service" target="_blank">View on GitHub</a>
+        </div>
     </div>
 </body>
 </html>
